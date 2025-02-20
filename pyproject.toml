@@ -51,9 +51,9 @@ scipy = {version = "^1.0", optional=true}
 matplotlib = "^3.0.0"
 timeout-decorator = {version = "^0.5.0", optional=true}
 molbloom = {version = "^2.1.0", optional=true}
-paretoset = "^1.2.3"
+paretoset = "^1.2.4"
 seaborn = "^0.13.2"
-numpy = "*"
+numpy = ">=1.26.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22.0.0"
